@@ -1,4 +1,5 @@
 import './App.css';
+import React from "react";
 import Sidebar from './components/Sidebar';
 
 function App() {
@@ -7,11 +8,11 @@ function App() {
       <header className="App-header">
         <p>Sidebar 1</p>
         <Sidebar initialMenuItems={[
-            'Albert Eggstein',
-            'Attila the Hen',
-            'Dixie Chick',
-            'Gregory Peck',
-            'Mary Poopins'
+            'Karen',
+            'Roo',
+            'Dora',
+            'Spongebob',
+            'George Cloney'
           ]}></Sidebar>
       </header>
     </div>
